@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap')
+@import mixins
+@import color-scheme
+
+[data-theme="two"]#root
+    background-color: hsl(0, 0%, 90%)
+
+[data-theme="two"].indicator
+    color: $very-dark-grayish-yellow
+    font-size: 2.2rem
+    font-family: 'League Spartan', sans-serif
+    
+[data-theme="two"].small-indicator
+    @include defaultIndicator
+    color: $very-dark-grayish-yellow
+
+[data-theme="two"].span-indicator
+    @include defaultIndicator
+    color: $very-dark-grayish-yellow
+
+[data-theme="two"].box-radio    
+    background: hsl(0, 5%, 81%)
+
+[data-theme="two"].box-radio .label-radio.selected
+    background-color: $orange-key-background-toggle
+    cursor: default
+   
+
+[data-theme="two"].box-two
+    background-color:  hsl(0, 1%, 97%)
+
+[data-theme="two"].math-panel
+    color: $very-dark-grayish-yellow
+
+[data-theme="two"].box-three
+    background-color:  hsl(0, 5%, 81%)
+    padding: 26px
+    border-radius: 8px
+
+[data-theme="two"].box-three .number
+    color: $very-dark-grayish-yellow
+    background-color: $light-grayish-yellow-key-background
+    box-shadow: 0px 3px 0px $dark-grayish-orange-key-shadow
+
+    
+      
+[data-theme="two"].box-three .operator
+    color: $very-dark-grayish-yellow
+    background-color: $light-grayish-yellow-key-background
+    box-shadow: 0px 3px 0px $dark-grayish-orange-key-shadow
+    
+
+[data-theme="two"].box-three .resources
+    color: $white-text
+    background-color: $dark-moderate-cyan-key-background
+    box-shadow: 0px 3px 0px $very-dark-cyan-key-shadow
+
+[data-theme="two"].box-three .result
+    background-color: $orange-key-background-toggle
+    box-shadow: 0px 3px 0px $dark-orange-key-shadow
+    color: $white-text
+
+[data-theme="two"].attribution a 
+    color: black

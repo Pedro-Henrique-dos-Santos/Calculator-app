@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap')
+@import mixins
+@import color-scheme
+
+[data-theme="three"]#root
+    background-color: $very-dark-violet-main-background
+
+[data-theme="three"].indicator
+    color: $light-yellow
+    font-size: 2.2rem
+    font-family: 'League Spartan', sans-serif
+    
+[data-theme="three"].small-indicator
+    @include defaultIndicator
+    color: $light-yellow
+
+[data-theme="three"].span-indicator
+    @include defaultIndicator
+    color: $light-yellow
+
+[data-theme="three"].box-radio    
+    background: $very-dark-violet-toggle-keypad-background-screen-background
+
+[data-theme="three"].box-radio .label-radio.selected
+    background-color: $pure-cyan-key-background-toggle
+    cursor: default
+   
+
+[data-theme="three"].box-two
+    background-color:  $very-dark-violet-toggle-keypad-background-screen-background
+
+[data-theme="three"].math-panel
+    color: $light-yellow
+
+[data-theme="three"].box-three
+    background-color:  $very-dark-violet-toggle-keypad-background-screen-background
+    padding: 26px
+    border-radius: 8px
+
+[data-theme="three"].box-three .number
+    color: $light-yellow
+    background-color: $very-dark-violet-key-background
+    box-shadow: 0px 3px 0px $dark-magenta-key-shadow
+
+    
+      
+[data-theme="three"].box-three .operator
+    color: $light-yellow
+    background-color: $very-dark-violet-key-background
+    box-shadow: 0px 3px 0px $dark-magenta-key-shadow
+
+[data-theme="three"].box-three .resources
+    color: $white-text
+    background-color: $dark-violet-key-background
+    box-shadow: 0px 3px 0px $vivid-magenta-key-shadow
+
+[data-theme="three"].box-three .result
+    background-color: $pure-cyan-key-background-toggle
+    box-shadow: 0px 3px 0px $soft-cyan-key-shadow
+    color: $very-dark-blue
+

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"); /********************START THEME ONE***************************/
+/*BACKGROUNDS*/
+/*KEYS*/
+/*TEXT*/
+/********************END THEME ONE THEN START THE TWO***************************/
+/********************END THEME TWO THEN START THE THREE***************************/
+/********************END THEME THREE***************************/
+/********************START THEME ONE***************************/
+/*BACKGROUNDS*/
+/*KEYS*/
+/*TEXT*/
+/********************END THEME ONE THEN START THE TWO***************************/
+/********************END THEME TWO THEN START THE THREE***************************/
+/********************END THEME THREE***************************/
+[data-theme=two]#root {
+  background-color: hsl(0deg, 0%, 90%);
+}
+
+[data-theme=two].indicator {
+  color: hsl(60deg, 10%, 19%);
+  font-size: 2.2rem;
+  font-family: "League Spartan", sans-serif;
+}
+
+[data-theme=two].small-indicator {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: hsl(60deg, 10%, 19%);
+}
+
+[data-theme=two].span-indicator {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: hsl(60deg, 10%, 19%);
+}
+
+[data-theme=two].box-radio {
+  background: hsl(0deg, 5%, 81%);
+}
+
+[data-theme=two].box-radio .label-radio.selected {
+  background-color: hsl(25deg, 98%, 40%);
+  cursor: default;
+}
+
+[data-theme=two].box-two {
+  background-color: hsl(0deg, 1%, 97%);
+}
+
+[data-theme=two].math-panel {
+  color: hsl(60deg, 10%, 19%);
+}
+
+[data-theme=two].box-three {
+  background-color: hsl(0deg, 5%, 81%);
+  padding: 26px;
+  border-radius: 8px;
+}
+
+[data-theme=two].box-three .number {
+  color: hsl(60deg, 10%, 19%);
+  background-color: hsl(45deg, 7%, 89%);
+  box-shadow: 0px 3px 0px hsl(35deg, 11%, 61%);
+}
+
+[data-theme=two].box-three .operator {
+  color: hsl(60deg, 10%, 19%);
+  background-color: hsl(45deg, 7%, 89%);
+  box-shadow: 0px 3px 0px hsl(35deg, 11%, 61%);
+}
+
+[data-theme=two].box-three .resources {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(185deg, 42%, 37%);
+  box-shadow: 0px 3px 0px hsl(185deg, 58%, 25%);
+}
+
+[data-theme=two].box-three .result {
+  background-color: hsl(25deg, 98%, 40%);
+  box-shadow: 0px 3px 0px hsl(25deg, 99%, 27%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+[data-theme=two].attribution a {
+  color: black;
+}
+
+/*# sourceMappingURL=theme-two.css.map */

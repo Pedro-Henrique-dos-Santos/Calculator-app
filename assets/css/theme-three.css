@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"); /********************START THEME ONE***************************/
+/*BACKGROUNDS*/
+/*KEYS*/
+/*TEXT*/
+/********************END THEME ONE THEN START THE TWO***************************/
+/********************END THEME TWO THEN START THE THREE***************************/
+/********************END THEME THREE***************************/
+/********************START THEME ONE***************************/
+/*BACKGROUNDS*/
+/*KEYS*/
+/*TEXT*/
+/********************END THEME ONE THEN START THE TWO***************************/
+/********************END THEME TWO THEN START THE THREE***************************/
+/********************END THEME THREE***************************/
+[data-theme=three]#root {
+  background-color: hsl(268deg, 75%, 9%);
+}
+
+[data-theme=three].indicator {
+  color: hsl(52deg, 100%, 62%);
+  font-size: 2.2rem;
+  font-family: "League Spartan", sans-serif;
+}
+
+[data-theme=three].small-indicator {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: hsl(52deg, 100%, 62%);
+}
+
+[data-theme=three].span-indicator {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: hsl(52deg, 100%, 62%);
+}
+
+[data-theme=three].box-radio {
+  background: hsl(268deg, 71%, 12%);
+}
+
+[data-theme=three].box-radio .label-radio.selected {
+  background-color: hsl(176deg, 100%, 44%);
+  cursor: default;
+}
+
+[data-theme=three].box-two {
+  background-color: hsl(268deg, 71%, 12%);
+}
+
+[data-theme=three].math-panel {
+  color: hsl(52deg, 100%, 62%);
+}
+
+[data-theme=three].box-three {
+  background-color: hsl(268deg, 71%, 12%);
+  padding: 26px;
+  border-radius: 8px;
+}
+
+[data-theme=three].box-three .number {
+  color: hsl(52deg, 100%, 62%);
+  background-color: hsl(268deg, 47%, 21%);
+  box-shadow: 0px 3px 0px hsl(290deg, 70%, 36%);
+}
+
+[data-theme=three].box-three .operator {
+  color: hsl(52deg, 100%, 62%);
+  background-color: hsl(268deg, 47%, 21%);
+  box-shadow: 0px 3px 0px hsl(290deg, 70%, 36%);
+}
+
+[data-theme=three].box-three .resources {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(281deg, 89%, 26%);
+  box-shadow: 0px 3px 0px hsl(285deg, 91%, 52%);
+}
+
+[data-theme=three].box-three .result {
+  background-color: hsl(176deg, 100%, 44%);
+  box-shadow: 0px 3px 0px hsl(177deg, 92%, 70%);
+  color: hsl(198deg, 20%, 13%);
+}
+
+/*# sourceMappingURL=theme-three.css.map */

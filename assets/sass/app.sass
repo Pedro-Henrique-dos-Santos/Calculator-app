@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap')
+@import mixins
+@import color-scheme
+
+#root
+    height: 100%
+    @include flexCenter
+
+.main-content
+    width: 428px
+    padding: 16px
+
+.content-theme
+    height: 100%
+
+.main-content .box-one
+    @include flexSpaceBetwen
+    position: relative
+
+.main-content .box-one .box-radio
+    height: 22px
+    width: 68px
+    padding: 3px
+    border-radius: 9px
+    overflow: hidden
+
+.box-radio > input[type="radio"]
+    display: none
+
+.main-content .box-one .box-radio .label-radio
+    display: block
+    width: 14px
+    height: 14px
+    margin: 1px 5px 2px 2px 
+    border-radius: 7px
+    cursor: pointer
+    float: left
+
+.main-content .box-one .small-indicator
+    position: absolute
+    top: 57%
+    right: 20%
+
+.main-content .box-one .span-indicator
+    margin-left: 12px
+
+.main-content .box-two
+    @include flexJustifyEnd
+    width: 100%
+    height: 88px
+    margin-bottom: 16px
+    margin-top: 16px
+    border-radius: 5px
+
+
+.box-two .math-panel
+    padding: 24px
+    @include fontConfigNumbers
+    word-break: break-all
+    overflow: hidden
+
+.main-content .box-three
+    width: 100%
+    display: grid
+    grid-template-columns: repeat(4,1fr)
+    grid-template-rows:  repeat(5,42px)
+    gap: 18px
+
+.main-content .box-three button
+    border-radius: 8px
+    outline: none
+    border: none
+    cursor: pointer
+    padding-top: 4px 
+   
+    
+.main-content .box-three .number
+    @include fontConfigNumbers
+    
+.main-content .box-three .operator
+    @include fontOperators
+    
+.main-content .box-three .resources
+    @include fontResources
+    
+
+.main-content .box-three .span-two
+    grid-column: span 2
+
+
+
+.attribution 
+   @include attributionDefault
+    
+.attribution a 
+    color: $white
+
+    
