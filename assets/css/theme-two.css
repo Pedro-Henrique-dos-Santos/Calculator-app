@@ -45,6 +45,7 @@
 [data-theme=two].box-radio .label-radio.selected {
   background-color: hsl(25deg, 98%, 40%);
   cursor: default;
+  transition: 0.2s ease-in;
 }
 
 [data-theme=two].box-two {

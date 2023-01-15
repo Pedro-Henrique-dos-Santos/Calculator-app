@@ -1,8 +1,10 @@
-import {Screnn}  from './scripts/objects/screen.js'
+import { Calculator } from "./scripts/class/calculator.js"
 
 const app = function (): void {
-    const render:Screnn = new Screnn()
-    render.renderCalculator()
+    const calculator:Calculator = new Calculator()
+    calculator.renderCalculator()
+    calculator.alterTheme()
+    calculator.functionsCalculator()
     
 }
 

@@ -9,17 +9,17 @@ export class Screnn {
     renderCalculator(): void {
         this.location.innerHTML += `
         <main class="main-content">
-            <section data-theme="three" class="box-one">
-                    <h3 class="indicator" data-theme="three">calc</h3>
+            <section data-theme="one" class="box-one">
+                    <h3 class="indicator" data-theme="one">calc</h3>
                     <div class="content-theme">
-                    <small data-theme="three" class="small-indicator">Theme</small>
-                        <span data-theme="three" class="span-indicator">1</span>
-                        <span data-theme="three" class="span-indicator">2</span>
-                        <span data-theme="three" class="span-indicator">3</span>
-                        <div data-theme="three" class="box-radio">
-                            <label data-theme="three" class="label-radio selected" for="radio-one"></label>
-                            <label data-theme="three" class="label-radio" for="radio-two"></label>
-                            <label data-theme="three" class="label-radio" for="radio-three"></label>
+                    <small data-theme="one" class="small-indicator">Theme</small>
+                        <span data-theme="one" class="span-indicator">1</span>
+                        <span data-theme="one" class="span-indicator">2</span>
+                        <span data-theme="one" class="span-indicator">3</span>
+                        <div data-theme="one" class="box-radio">
+                            <label data-theme="one" class="label-radio selected" for="radio-one"></label>
+                            <label data-theme="one" class="label-radio" for="radio-two"></label>
+                            <label data-theme="one" class="label-radio" for="radio-three"></label>
                             <input type="radio" name="radio-theme" id="radio-one" checked />
                             <input type="radio" name="radio-theme" id="radio-two"/>
                             <input type="radio" name="radio-theme" id="radio-three"/>
@@ -27,13 +27,11 @@ export class Screnn {
                     </div>
             </section>
 
-            <section data-theme="three" class="box-two">
-                <div data-theme="three" class="math-panel">  
-                    125564757573,476545613121212121255
-                </div>
+            <section data-theme="one" class="box-two">
+                <div data-theme="one" class="math-panel"></div>
             </section>
 
-            <section data-theme="three" class="box-three">
+            <section data-theme="one" class="box-three">
                 <button class="number">7</button>
                 <button class="number">8</button>
                 <button class="number">9</button>
@@ -51,7 +49,7 @@ export class Screnn {
                 <button class="operator">/</button>
                 <button class="operator">x</button>
                 <button class="span-two resources">reset</button>
-                <button class="span-two operator result">=</button>
+                <button class="span-two result">=</button>
             </section>
         </main>
 
